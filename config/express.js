@@ -18,7 +18,7 @@ app.use(helmet());
  */
 const limiter = rateLimit({
     windowMs: 15 * 60 * 1000,  // 15 * 60 * 1000ms = 15min
-    max: 10000,
+    max: 10_000,
     message: {
         status: 403,
         success: false,
