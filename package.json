@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run lint && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ./index.js ./controllers/** ./config/** ./utils/**"
+    "lint": "eslint ./index.js ./controllers/** ./config/** ./utils/**",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -27,11 +28,6 @@
     "express-rate-limit": "^6.2.0",
     "helmet": "^5.0.1",
     "mongoose": "^6.1.7"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "CI=true npm lint"
-    }
   },
   "devDependencies": {
     "eslint": "^8.7.0",
