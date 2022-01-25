@@ -25,6 +25,20 @@ $> npm start
 //if you have an error it may be due to a mongodb installation error
 ```
 
+## Code structure details 
+
+🎨 This api use <a href="https://eslint.org/">eslint</a> to controle code style. 
+<br>You can use the following command to check that your code is clean.
+<br>```
+$> npm run lint
+```
+<br>You can change the writing rules in the file <b>.eslintrc.json</b>
+
+🐶 This api use <a href="https://www.npmjs.com/package/husky">husky</a> to prevent from bad commits. The code style will be verified before every commits to prevent pushing bad code.
+<br> You can modify the hook rules in the file <b>.husky/pre-commit</b>
+
+
+
 ## Credit:
 
 Creator: nexus91<br>
