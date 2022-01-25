@@ -6,5 +6,5 @@ exports.examplePost = (req, res) => {
             message: "Success message, let me show you the body you sent",
             body: req.body
         }
-    })
-}
+    });
+};
