@@ -1,3 +1,5 @@
+const myModel = require("../models/myModel");
+
 
 exports.examplePost = (req, res) => {
     return res.status(200).json({
@@ -9,3 +11,10 @@ exports.examplePost = (req, res) => {
     });
 };
 
+/**
+ * example of how to use my model with mongodb
+ */
+exports.showAllMyModels = async () => {
+    let myModels = await myModel.find({});
+    return myModels;
+};
