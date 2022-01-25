@@ -32,6 +32,7 @@ $> npm start
 <br>```
 $> npm run lint
 ```
+
 <br>You can change the writing rules in the file <b>.eslintrc.json</b>
 
 🐶 This api use <a href="https://www.npmjs.com/package/husky">husky</a> to prevent from bad commits. The code style will be verified before every commits to prevent pushing bad code.
