@@ -28,7 +28,13 @@
     "helmet": "^5.0.1",
     "mongoose": "^6.1.7"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "CI=true npm test"
+    }
+  },
   "devDependencies": {
-    "eslint": "^8.7.0"
+    "eslint": "^8.7.0",
+    "husky": "^7.0.4"
   }
 }
