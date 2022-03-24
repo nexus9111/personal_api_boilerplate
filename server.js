@@ -19,9 +19,9 @@ app.all('*', function (req, res, next) {
     let ipAddress = req.ipInfo.ip.substr(0, 7) == "::ffff:" ? req.ipInfo.ip.substr(7) : req.ipInfo.ip;
     if (BLACKLIST.indexOf(ipAddress) === -1) {
         if (!routerUtils.isAuthorizedRoute(req)) {
-            res.status(403).json({
+            res.status(404).json({
                 "success": false,
-                "data": { "message": "Unauthorized" }
+                "data": { "message": "Route does not exist" }
             });
         } else {
             console.log(`🔵 ${ipAddress} called route ${req.originalUrl} (🕦 ${moment().format('l')} ${moment().format('LTS')})`);
