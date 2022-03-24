@@ -32,7 +32,7 @@ $> npm start
 Run with autoreload on modif:
 
 ```bash
-$> npm i nodemon
+$> npm i -g nodemon
 $> npm run dev
 ```
 
