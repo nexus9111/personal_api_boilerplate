@@ -42,7 +42,7 @@ Run with prod variables:
 $> npm run prod
 ```
 
-## ✒️ Licence
+## ✒️ License
 
 - Author: Joss C
 - Last update: 03/24/2022
