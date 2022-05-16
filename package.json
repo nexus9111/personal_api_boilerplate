@@ -1,5 +1,5 @@
 {
-  "name": "homemade_dropbox",
+  "name": "personal_api_boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nexus9111/homemade_dropbox.git"
+    "url": "git+https://github.com/nexus9111/personal_api_boilerplate.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nexus9111/homemade_dropbox/issues"
+    "url": "https://github.com/nexus9111/personal_api_boilerplate/issues"
   },
-  "homepage": "https://github.com/nexus9111/homemade_dropbox#readme",
+  "homepage": "https://github.com/nexus9111/personal_api_boilerplate#readme",
   "dependencies": {
     "body-parser": "^1.19.2",
     "cors": "^2.8.5",
