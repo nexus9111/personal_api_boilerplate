@@ -41,5 +41,5 @@ app.use("/files", file);
 app.listen(port, () => {
     console.log(`🤖 Application running in: ${env}`)
     console.log(`🛡  Blacklisted ip(s): ${BLACKLIST}`);
-    console.log(`✅ Example app listening at http://localhost:${process.env.API_PORT}`);
+    console.log(`✅ Example app listening at http://localhost:${port}`);
 });
